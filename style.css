@@ -13,3 +13,35 @@ img {
   display: inline-block;
   vertical-align: middle;
 }
+
+#table-of-contents ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: #f2f2f2;
+  overflow: hidden;
+}
+
+#table-of-contents li {
+  display: inline;
+  padding: 8px;
+}
+
+#table-of-contents li a {
+  text-decoration: none;
+  color: DarkBlue;
+}
+
+#introduction {
+  width: 100%;
+}
+
+section {
+  width: 300px;
+  box-sizing: border-box;
+}
+
+#ie, #firefox, #chrome {
+  display: inline-block;
+  vertical-align: top;
+}
